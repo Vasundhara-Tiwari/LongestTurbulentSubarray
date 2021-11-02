@@ -10,7 +10,9 @@ public class Solution {
             int newDifference = arr[index] - arr[index - 1];
             if (newDifference * lastDifference > 0) {
                 length = index - 1;
-            } 
+            } else if (arr[index] == arr[index - 1]) {
+                length = index;
+            }
         }
         return maximumLength;
     }
