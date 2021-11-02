@@ -6,6 +6,6 @@ public class Solution {
         int index = 1;
         int maximumLength = 1;
         long lastDifference = 0;
-        return 0;
+        return maximumLength;
     }
 }
