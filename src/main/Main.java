@@ -15,5 +15,6 @@ public class Main {
         }
         Solution obj = new Solution();
         int result = obj.maxTurbulenceSize(array);
+        System.out.println(result);
     }
 }
