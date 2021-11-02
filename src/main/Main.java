@@ -14,5 +14,6 @@ public class Main {
             array[i]=scanner.nextInt();
         }
         Solution obj = new Solution();
+        int result = obj.maxTurbulenceSize(array);
     }
 }
