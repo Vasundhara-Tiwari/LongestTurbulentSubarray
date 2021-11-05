@@ -13,6 +13,9 @@ public class Solution {
             } else if (arr[index] == arr[index - 1]) {
                 length = index;
             }
+            maximumLength = Math.max(maximumLength, index - length + 1);
+            lastDifference = newDifference;
+            index++;
         }
         return maximumLength;
     }
